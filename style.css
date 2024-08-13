@@ -67,4 +67,168 @@ header .btn{
 /* Hero Section */
 #hero{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background-color: white;
+}
+
+#hero .hero-content{
+    width: 50%;
+    padding-left: 50px;
+
+}
+
+#hero .hero-content h2{
+    font-size: 2.5rem;
+    color: #008080;
+    margin-bottom: 20px;
+}
+
+#hero .hero-content p{
+    font-size: 1.2rem;
+    padding: 15px 30px;
+}
+
+#hero .hero-image img{
+    width:100%;
+    max-width: :500px;
+}
+
+/* Features Section */
+
+#features{
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+#features h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+}
+
+.feature-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow:0 40px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+
+}
+
+.feature-card:hover{
+    transform: translateY(-10px);
+}
+.feature-card img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3{
+    font-size: 1.5rem;
+    color: #008080;
+    margin-bottom: 15px;
+}
+
+/* Testimonials Section */
+#testimonials{
+    padding: 50px 0;
+    background-color: white;
+}
+
+
+#testimonials h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+}
+
+.testimonials-container{
+ display: flex;   
+ justify-content: space-around;
+ margin-top: 30px;
+}
+
+.testimonial {
+    background-color: #F7F7F7;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.testimonial h3 {
+    font-size: 1.2rem;
+    color: #008080;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 50px 0;
+    background-color: #F7F7F7;
+}
+
+#pricing h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.pricing-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #008080;
+}
+
+.pricing-card .price {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FF6F61;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
 }
