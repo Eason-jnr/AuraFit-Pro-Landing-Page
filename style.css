@@ -92,7 +92,7 @@ header .btn{
 
 #hero .hero-image img{
     width:100%;
-    max-width: :500px;
+    max-width: 500px;
 }
 
 /* Features Section */
@@ -231,4 +231,147 @@ header .btn{
 .pricing-card ul li {
     margin-bottom: 10px;
     font-size: 1rem;
+}
+
+/* Call to Action Section */
+#cta{
+    padding: 50px 0;
+    background-color: #008080;
+    color: white;
+    text-align: center;
+}
+
+#cta h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#cta p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#cta .btn{
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    background-color: #FF6F61;
+    color: white;
+    transition: background-color 0.3s;
+
+}
+
+#cta .btn:hover{
+    background-color: white;
+    color: #FF6F61;
+    border: 2px solid #ff6f61;
+}
+
+/* Footer Section */
+footer {
+    padding: 50px 0;
+    background-color: #333333;
+    color: white;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-about,
+footer .footer-links,
+footer .footer-social {
+    width: 30%;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #FF6F61;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    header .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #hero .hero-content {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #hero .hero-image img {
+        max-width: 80%;
+    }
+
+    .feature-cards,
+    .testimonials-container,
+    .pricing-plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card,
+    .testimonial,
+    .pricing-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-about,
+    footer .footer-links,
+    footer .footer-social {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
